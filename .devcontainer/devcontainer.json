@@ -3,5 +3,5 @@
   "features": {
     "ghcr.io/ddev/ddev/install-ddev:latest": {}
   },
-  "postStartCommand": "chmod +x .devcontainer/setup_project.sh && bash -i .devcontainer/setup_project.sh"
+  "postAttachCommand": "chmod +x .devcontainer/setup_project.sh && bash -i .devcontainer/setup_project.sh"
 }
